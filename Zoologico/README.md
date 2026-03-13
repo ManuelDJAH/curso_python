@@ -1,11 +1,17 @@
-# 🦁 Sistema Zoológico
+## Autor
+
+**Manuel de Jesus Arvayo Heraldez**  
+
+---
+
+# Sistema Zoológico
 
 Programa de consola en Python para gestionar un catálogo de animales.  
 Permite consultar, filtrar y agregar animales, con persistencia automática en archivos CSV.
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 zoologico/
@@ -19,14 +25,8 @@ zoologico/
 
 ---
 
-## ▶️ Requisitos
 
-- Python **3.10** o superior (se usan type hints modernos).
-- No se requieren librerías externas; solo módulos de la biblioteca estándar (`csv`, `os`, `sys`).
-
----
-
-## 🚀 Cómo iniciar el programa
+## Cómo iniciar el programa
 
 1. Abre una terminal y navega a la carpeta del proyecto:
 
@@ -40,17 +40,15 @@ zoologico/
    python main.py
    ```
 
-   > En sistemas donde coexisten Python 2 y Python 3 usa `python3 main.py`.
-
 ---
 
-## 🕹️ Cómo interactuar
+## Cómo interactuar
 
 Al arrancar verás el **menú principal**:
 
 ```
 ══════════════════════════════════════════════════════
-  🦁  SISTEMA ZOOLÓGICO
+ SISTEMA ZOOLÓGICO
 ══════════════════════════════════════════════════════
 
   Total de animales cargados: 93
@@ -70,7 +68,7 @@ Al arrancar verás el **menú principal**:
 | **4** | Guía paso a paso para ingresar un nuevo animal: nombre, características (0/1 para cada rasgo, número de patas) y clase. Puede agregar varios animales seguidos. |
 | **5** | **Guarda** automáticamente los cambios en `data/zoo.csv` y termina el programa. |
 
-### ➕ Agregar un animal (opción 4)
+### Agregar un animal (opción 4)
 
 El programa solicitará:
 
@@ -83,14 +81,14 @@ El programa solicitará:
 
 Al terminar se preguntará si deseas agregar otro animal.
 
-### 💾 Persistencia
+### Persistencia
 
 Al seleccionar **Salir (5)**, los datos se graban en `data/zoo.csv`.  
 La próxima vez que inicies el programa, los nuevos animales estarán disponibles automáticamente.
 
 ---
 
-## 📋 Clases disponibles
+## Clases disponibles
 
 | ID | Clase |
 |----|-------|
@@ -104,13 +102,6 @@ La próxima vez que inicies el programa, los nuevos animales estarán disponible
 
 ---
 
-## 🔬 Características disponibles
+## Características disponibles
 
 `pelo` · `plumas` · `huevos` · `leche` · `vuela` · `acuatico` · `depredador` · `dientes` · `espinazo` · `respira` · `venenoso` · `aletas` · `patas` · `cola` · `domestico` · `tamanio_gato`
-
----
-
-## 👤 Autor
-
-**[Tu nombre completo aquí]**  
-Proyecto: **Zoológico**
