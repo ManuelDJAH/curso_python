@@ -26,7 +26,7 @@ ZOO_CSV    = os.path.join(DATA_DIR, "zoo.csv")
 ZOO_FIELDS = ["nombre_animal"] + CARACTERISTICAS + ["clase"]
 
 # Pantalla
-
+    |
 def separador():
     print("-" * 50)
 
