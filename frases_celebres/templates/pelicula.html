@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Frases Celebres de Películas - Home{% endblock %}
+{% block body %}
+<div class="container">
+    <div>
+        <form action="/pelicula" method="post">
+            <label for="pelicula">Pelicula:</label>
+            <input type="text" id="pelicula" name="pelicula">
+            <input type="submit" value="Buscar">
+        </form>
+    </div>
+    <div>
+        <ul>
+            {% for frase in frases_list %}
+            <li>{{pelicula.frase}} - {{ pelicula.pelicula }} {{ pelicula.ratio }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endblock %}
